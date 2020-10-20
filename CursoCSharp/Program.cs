@@ -44,7 +44,7 @@ namespace CursoCSharp
             var mes = int.Parse(mesAno.Substring(0, 2));
             var ano = int.Parse(mesAno.Substring(3));
 
-            Console.WriteLine($"Nome: {nome}\nDepartamento: {worker.Department.Name}\nTotal recebido para {mesAno}: {worker.Income(ano,mes).ToString("F2", CultureInfo.InvariantCulture)}");
+            Console.WriteLine($"Nome: {nome}\nDepartamento: {worker.Department.Name}\nTotal recebido para {mesAno}: {worker.Income(ano,mes).ToString("F2", CultureInfo.InvariantCulture)}"); 
         }
     }
 }
