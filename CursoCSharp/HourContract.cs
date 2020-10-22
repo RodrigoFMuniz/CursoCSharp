@@ -15,7 +15,6 @@ namespace CursoCSharp
             ValuePerHour = valuePerHour;
             Hours = hours;
         }
-
         public double TotalValue()
         {
             return ValuePerHour * Hours;

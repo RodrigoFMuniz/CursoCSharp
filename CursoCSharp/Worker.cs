@@ -10,7 +10,7 @@ namespace CursoCSharp
         public Department Department { get; set; }
         public List<HourContract> Contracts { get; set; } = new List<HourContract>();
 
-        public Worker(){}
+                public Worker(){}
         public Worker(string name, WorkerLevel level, double baseSalary, Department department)
         {
             Name = name;
